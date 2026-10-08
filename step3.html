@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Memoria - Quiz Etape 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="quiz-container">
+
+        <!-- En-tête -->
+        <div class="app-header">
+            <a href="step2.html">
+                <button class="back-btn">←</button>
+            </a>
+            <h2 class="app-title">Memoria</h2>
+            <p class="app-subtitle">Learn Spanish</p>
+        </div>
+
+        <!-- Contenu principal -->
+        <div class="main-content">
+
+            <!-- COLONNE GAUCHE  -->
+            <div class="carte-blanche">
+                <div class="decor-icons">
+                    <span class="icon-item"></span>
+                    <span class="icon-item"></span>
+                    <span class="icon-item"></span>
+                </div>
+
+                <h1 class="spanish-word">Gracias</h1>
+                <p class="instruction">What does it mean?</p>
+                <img src="image/chapeau.jpg" alt="Chapeau" class="chapeau-img">
+            </div>
+
+            <!-- COLONNE DROITE  -->
+            <div class="instructions-droite">
+
+                <!-- Barre de progression (remplie aux 3/4) -->
+                <div class="progress-bar">
+                    <div class="progress-fill three-quarters"></div>
+                </div>
+
+                <p class="progression">3/4</p>
+
+                <div class="options-grid">
+                    <!-- Classe 'wrong'  mettre en rouge le mauvais choix -->
+                    <button class="option-btn wrong">Water</button>
+                    <!-- Classe 'correct'  mettre en vert la bonne réponse -->
+                    <button class="option-btn correct">Thank you</button>
+                    <button class="option-btn">Here</button>
+                    <button class="option-btn">Take</button>
+                </div>
+
+                <!-- Zone de texte qui affiche la bonne réponse attendue -->
+                <div class="feedback-msg error">
+                    <p>Correct answer: Thank you</p>
+                </div>
+
+                <!--  bouton pour passer à la suite -->
+                <a href="step4.html"></a>
+                    <button class="submit-btn">Next</button>
+                </a>
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+
+    </div>
+
+</body>
+
+</html>

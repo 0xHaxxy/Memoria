@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Memoria - Results</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="quiz-container">
+
+        <!-- En-tête  -->
+        <div class="app-header">
+            <a href="step4.html">
+                <button class="back-btn">←</button>
+            </a>
+            <h2 class="app-title">Memoria</h2>
+            <p class="app-subtitle">Your results</p>
+        </div>
+
+        <!-- Le contenu principal  -->
+        <div class="main-content">
+
+            <!-- COLONNE GAUCHE -->
+            <div class="carte-blanche">
+                <div class="decor-icons">
+                    <span class="icon-item"></span>
+                    <span class="icon-item"></span>
+                    <span class="icon-item"></span>
+                </div>
+
+                <!-- Score final -->
+                <h1 class="final-score">3/4</h1>
+                <p class="instruction">75% correct · 3 right, 1 wrong</p>
+                <img src="image/chapeau.jpg" alt="Chapeau" class="chapeau-img">
+            </div>
+
+            <!-- COLONNE DROITE  -->
+            <div class="instructions-droite">
+                
+                <h3 class="results-title">Your answers</h3>
+
+                <!-- La liste  de l'historique des réponses de l'utilisateur -->
+                <ul class="results-list">
+                    
+                    <!-- Ligne 1 : Bonne réponse -->
+                    <li class="result-item correct">
+                        <span class="spanish-word">Hola</span>
+                        <span class="user-answer">Hello</span>
+                        <span class="status-icon">✓</span>
+                    </li>
+
+                    <!-- Ligne 2 : Bonne réponse -->
+                    <li class="result-item correct">
+                        <span class="spanish-word">Puerta</span>
+                        <span class="user-answer">Door</span>
+                        <span class="status-icon">✓</span>
+                    </li>
+
+                    <!-- Ligne 3 : Mauvaise réponse -->
+                    <li class="result-item wrong">
+                        <span class="spanish-word">Gracias</span>
+                        <span class="user-answer">Water <span class="correction-text">(answer: Thank you)</span></span>
+                        <span class="status-icon">✗</span>
+                    </li>
+
+                    <!-- Ligne 4 : Bonne réponse -->
+                    <li class="result-item correct">
+                        <span class="spanish-word">Agua</span>
+                        <span class="user-answer">Water</span>
+                        <span class="status-icon">✓</span>
+                    </li>
+
+                </ul>
+
+                <!-- Le bouton pour recommencer une partie -->
+                <a href="index.html"></a>
+                    <button class="submit-btn">Play again</button>
+                </a>
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+
+    </div>
+
+</body>
+
+</html>

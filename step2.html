@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Memoria - Quiz Etape 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="quiz-container">
+
+        <!-- En-tête -->
+        <div class="app-header">
+            <a href="step1.html">
+                <button class="back-btn">←</button>
+            </a>
+            <h2 class="app-title">Memoria</h2>
+            <p class="app-subtitle">Learn Spanish</p>
+        </div>
+
+        <!-- Contenu principal  -->
+        <div class="main-content">
+
+            <!-- COLONNE GAUCHE  -->
+            <div class="carte-blanche">
+                <div class="decor-icons">
+                    <span class="icon-item"></span>
+                    <span class="icon-item"></span>
+                    <span class="icon-item"></span>
+                </div>
+
+                <h1 class="spanish-word">Puerta</h1>
+                <p class="instruction">What does it mean?</p>
+                <img src="image/chapeau.jpg" alt="Chapeau" class="chapeau-img">
+            </div>
+
+            <!-- COLONNE DROITE  -->
+            <div class="instructions-droite">
+
+                <!-- Barre de progression ( la remplir à moitié) -->
+                <div class="progress-bar">
+                    <div class="progress-fill half"></div>
+                </div>
+
+                <p class="progression">2/4</p>
+
+                <div class="options-grid">
+                    <!-- Classe 'correct' ajoutée pour mettre le bouton en vert -->
+                    <button class="option-btn correct">Door</button>
+                    <button class="option-btn">House</button>
+                    <button class="option-btn">Here</button>
+                    <button class="option-btn">Welcome</button>
+                </div>
+
+                <!-- Zone de correction  -->
+                <div class="feedback-msg">
+                    <p>¡Correcto!</p>
+                </div>
+
+                <!-- Le bouton pour passer à la suite -->
+                <a href="step3.html">
+                    <button class="submit-btn">Next</button>
+                </a>
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+
+    </div>
+
+</body>
+
+</html>
