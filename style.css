@@ -1,0 +1,41 @@
+:root {
+    --terracotta: #DF4818;
+    --entoure-btn: #B53A12;
+    --btn: #F9A06A;
+    --numprogress: #E5894B;
+    --bg: #FBE8DC;
+    --card: #FFFFFF;
+    --txt-ask: #2B1A12;
+    --txt-btn: #4A1D0A;
+}
+
+body {
+    margin: 0;
+}
+
+.app-header {
+    background-color: var(--terracotta);
+    color: var(--card);
+    padding: 24px 24px 120px;
+    border-radius: 0 0 48px 48px;
+}
+
+.main-content {
+    margin-top: -100px;
+    padding: 0 22px;
+}
+
+.card {
+    height: 340px;
+    background-color: var(--card);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 16px;
+}
+
+.start-page {
+    background-color: var(--bg);
+}
