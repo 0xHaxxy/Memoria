@@ -1,77 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Memoria - Quiz Fin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Memoria - Quiz 4/4</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <div class="quiz-page">
 
-    <div class="quiz-container">
+        <!-- En-tête avec le bouton retour -->
+        <header class="app-header">
+            <a class="back-btn" href="step3.html" aria-label="Back">&larr;</a>
+            <h1 class="app-title">Memoria</h1>
+            <p class="app-sub">Learn Spanish</p>
+        </header>
 
-        <!-- En-tête -->
-        <div class="app-header">
-            <a href="step3.html">
-                <button class="back-btn">←</button>
-            </a>
-            <h2 class="app-title">Memoria</h2>
-            <p class="app-subtitle">Learn Spanish</p>
-        </div>
+        <main class="main-content">
 
-        <!-- Contenu principal  -->
-        <div class="main-content">
-
-            <!-- COLONNE GAUCHE  -->
-            <div class="carte-blanche">
-                <div class="decor-icons">
+            <!-- Colonne gauche -->
+            <section class="card">
+                <div class="decor-icons" aria-hidden="true">
                     <span class="icon-item"></span>
                     <span class="icon-item"></span>
                     <span class="icon-item"></span>
                 </div>
-
-                <h1 class="spanish-word">Agua</h1>
+                <h2 class="spanish-word">Agua</h2>
                 <p class="instruction">What does it mean?</p>
-                <img src="image/chapeau.jpg" alt="Chapeau" class="chapeau-img">
-            </div>
+                <img src="image/chapeau.png" alt="" class="hat-img">
+            </section>
 
-            <!-- COLONNE DROITE  -->
-            <div class="instructions-droite">
-
-                <!-- Barre de progression plein -->
+            <!-- Colonne droite -->
+            <section class="side">
+                <!-- Barre de progression -->
                 <div class="progress-bar">
-                    <!--  remplir la barre à 100% -->
                     <div class="progress-fill full"></div>
                 </div>
-
                 <p class="progression">4/4</p>
 
+                <!-- Les 4 réponses possibles -->
                 <div class="options-grid">
                     <button class="option-btn">House</button>
                     <button class="option-btn">Hello</button>
-                    <!-- Classe 'correct'  -->
                     <button class="option-btn correct">Water</button>
                     <button class="option-btn">Door</button>
                 </div>
 
-                <!-- Zone de correction -->
-                <div class="feedback-msg">
-                    <p>¡Correcto!</p>
-                </div>
+                <!-- Message de correction -->
+                <p class="feedback-msg">¡Correcto!</p>
 
-                <!--  bouton de validation -->
-                <a href="stats.html">
-                    <button class="submit-btn">Results</button>
-                </a>
-            </div>
+                <a class="submit-btn" href="stats.html">Results</a>
+            </section>
 
-        </div>
-
-        <script src="script.js"></script>
+        </main>
 
     </div>
-
+    <script src="script.js"></script>
 </body>
-
 </html>

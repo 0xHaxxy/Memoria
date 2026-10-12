@@ -1,75 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Memoria - Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Memoria - Quiz 1/4</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <div class="quiz-container">
+    <div class="quiz-page">
 
         <!-- En-tête avec le bouton retour -->
-        <div class="app-header">
-            <a href="index.html">
-                <button class="back-btn">←</button>
-            </a>
-            <h2 class="app-title">Memoria</h2>
-            <p class="app-subtitle">Learn Spanish</p>
-        </div>
+        <header class="app-header">
+            <a class="back-btn" href="index.html" aria-label="Back">&larr;</a>
+            <h1 class="app-title">Memoria</h1>
+            <p class="app-sub">Learn Spanish</p>
+        </header>
 
+        <main class="main-content">
 
-        <!-- Le contenu principal  -->
-        <div class="main-content">
-
-            <!-- COLONNE GAUCHE  -->
-            <div class="carte-blanche">
-                <!-- Petites icônes décoratives -->
-                <div class="decor-icons">
+            <!-- Colonne gauche -->
+            <section class="card">
+                <div class="decor-icons" aria-hidden="true">
                     <span class="icon-item"></span>
                     <span class="icon-item"></span>
                     <span class="icon-item"></span>
                 </div>
-
-                <h1 class="spanish-word">Hola</h1>
+                <h2 class="spanish-word">Hola</h2>
                 <p class="instruction">What does it mean?</p>
-                <img src="image/chapeau.jpg" alt="Chapeau" class="chapeau-img">
-            </div>
+                <img src="image/chapeau.png" alt="" class="hat-img">
+            </section>
 
-            <!-- COLONNE DROITE  -->
-            <div class="instructions-droite">
-
-                <!-- Barre de progression orange  -->
+            <!-- Colonne droite -->
+            <section class="side">
+                <!-- Barre de progression -->
                 <div class="progress-bar">
-                    <div class="progress-fill"></div>
+                    <div class="progress-fill quarter"></div>
                 </div>
-
-                <!-- Texte de suivi (Classe progression) -->
                 <p class="progression">1/4</p>
 
-                <!-- La grille contenant les 4 boutons de réponse -->
+                <!-- Les 4 réponses possibles -->
                 <div class="options-grid">
                     <button class="option-btn">Take</button>
-                    <!-- On selectionne la case Hello -->
                     <button class="option-btn selected">Hello</button>
                     <button class="option-btn">Door</button>
                     <button class="option-btn">Water</button>
                 </div>
 
-                <!--  bouton de validation -->
-                <a href="step2.html">
-                    <button class="submit-btn">Submit</button>
-                </a>
-            </div>
+                <!-- Zone de message vide : elle garde la même hauteur que sur les autres pages -->
+                <p class="feedback-msg"></p>
 
-        </div>
+                <a class="submit-btn" href="step2.html">Submit</a>
+            </section>
 
-        <script src="script.js"></script>
+        </main>
 
     </div>
-
+    <script src="script.js"></script>
 </body>
-
 </html>
