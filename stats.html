@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Memoria - Results</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-page">
+
+        <!-- En-tête avec le bouton retour -->
+        <header class="app-header">
+            <h1 class="app-title">Memoria</h1>
+            <p class="app-sub">Your results</p>
+        </header>
+
+        <main class="main-content">
+
+            <!-- Colonne gauche -->
+            <section class="card">
+                <div class="decor-icons" aria-hidden="true">
+                    <span class="icon-item"></span>
+                    <span class="icon-item"></span>
+                    <span class="icon-item"></span>
+                </div>
+                <h2 class="final-score">3/4</h2>
+                <p class="instruction">75% correct · 3 right, 1 wrong</p>
+                <img src="image/chapeau.png" alt="" class="hat-img">
+            </section>
+
+            <!-- Colonne droite -->
+            <section class="side">
+                <h2 class="results-title">Your answers</h2>
+
+                <!-- Historique des réponses de l'utilisateur -->
+                <ul class="results-list">
+                    <li class="result-item correct">
+                        <span class="result-word">Hola</span>
+                        <span class="user-answer">Hello</span>
+                        <span class="status-icon">✓</span>
+                    </li>
+                    <li class="result-item correct">
+                        <span class="result-word">Puerta</span>
+                        <span class="user-answer">Door</span>
+                        <span class="status-icon">✓</span>
+                    </li>
+                    <li class="result-item wrong">
+                        <span class="result-word">Gracias</span>
+                        <span class="user-answer">Water <span class="correction-text">(answer: Thank you)</span></span>
+                        <span class="status-icon">✗</span>
+                    </li>
+                    <li class="result-item correct">
+                        <span class="result-word">Agua</span>
+                        <span class="user-answer">Water</span>
+                        <span class="status-icon">✓</span>
+                    </li>
+                </ul>
+
+                <a class="submit-btn" href="index.html">Play again</a>
+            </section>
+
+        </main>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Memoria - Quiz 1/4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-page">
+
+        <!-- En-tête avec le bouton retour -->
+        <header class="app-header">
+            <h1 class="app-title">Memoria</h1>
+            <p class="app-sub">Learn Spanish</p>
+        </header>
+
+        <main class="main-content">
+
+            <!-- Colonne gauche -->
+            <section class="card">
+                <div class="decor-icons" aria-hidden="true">
+                    <span class="icon-item"></span>
+                    <span class="icon-item"></span>
+                    <span class="icon-item"></span>
+                </div>
+                <h2 class="spanish-word">Hola</h2>
+                <p class="instruction">What does it mean?</p>
+                <img src="image/chapeau.png" alt="" class="hat-img">
+            </section>
+
+            <!-- Colonne droite -->
+            <section class="side">
+                <!-- Barre de progression -->
+                <div class="progress-bar">
+                    <div class="progress-fill quarter"></div>
+                </div>
+                <p class="progression">1/4</p>
+
+                <!-- Les 4 réponses possibles -->
+                <div class="options-grid">
+                    <button class="option-btn">Take</button>
+                    <button class="option-btn selected">Hello</button>
+                    <button class="option-btn">Door</button>
+                    <button class="option-btn">Water</button>
+                </div>
+
+                <!-- Zone de message vide : elle garde la même hauteur que sur les autres pages -->
+                <p class="feedback-msg"></p>
+
+                <a class="submit-btn" href="step2.html">Submit</a>
+            </section>
+
+        </main>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
