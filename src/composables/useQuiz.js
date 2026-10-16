@@ -2,7 +2,7 @@ import { reactive, computed } from 'vue'
 import { WORDS } from '../data/words'
 
 // Nombre total de questions dans une partie.
-export const TOTAL = 4
+export const TOTAL = 8
 
 // État partagé entre les différentes pages de l'application.
 const state = reactive({

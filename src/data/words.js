@@ -1,4 +1,4 @@
-// Banque de mots : le quiz en tire 4 au hasard
+// Banque de mots (100 mots) : le quiz en tire 4 au hasard
 export const WORDS = {
 casa: "house",
   perro: "dog",

@@ -29,7 +29,7 @@ function start() {
           <li class="step">Pick its English meaning</li>
           <li class="step">Submit and check your score</li>
         </ol>
-        <p class="meta">4 words · about 1 minute</p>
+        <p class="meta">8 word to guess</p>
         <a class="submit-btn" href="#" @click.prevent="start">Start</a>
       </section>
     </main>
