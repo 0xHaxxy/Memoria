@@ -33,13 +33,6 @@ body {
     border-radius: 0 0 64px 64px;
 }
 
-.back-btn {
-    display: inline-block;
-    color: var(--card);
-    font-size: 45px;
-    line-height: 1;
-    text-decoration: none;
-}
 
 /* Survol */
 .option-btn:hover,
@@ -226,7 +219,19 @@ body {
     border-radius: 16px;
     cursor: pointer;
     outline: none;
-    transition: border-color .2s ease;
+    transition: background-color .2s ease, border-color .2s ease;
+}
+
+/* Après la validation, la bonne réponse apparaît en vert clair. */
+.option-btn.correct {
+    background-color: #DDF4E4;
+    border-color: #2E7D5B;
+}
+
+/* Après une mauvaise réponse, le choix de l'utilisateur apparaît en rouge. */
+.option-btn.wrong {
+    background-color: #FBE3E1;
+    border-color: #C0392B;
 }
 
 .option-btn:focus {
@@ -307,4 +312,12 @@ body {
     background-color: var(--terracotta);
     color: var(--card);
     border-radius: 16px;
+}
+
+.correct-icon {
+  color: green;
+}
+
+.wrong-icon {
+  color: red;
 }
