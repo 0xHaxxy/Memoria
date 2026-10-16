@@ -64,7 +64,7 @@ function onSubmit() {
 
     <main class="main-content">
       <section class="card">
-        <img v-if="step > 1" src="/image/vase.jpg" alt="" class="vase-img">
+        <img v-if="step >=0" src="/image/vase.jpg" alt="" class="vase-img">
         <h2 class="spanish-word">{{ question.es }}</h2>
         <p class="instruction">What does it mean?</p>
         <img src="/image/chapeau.jpg" alt="" class="hat-img">

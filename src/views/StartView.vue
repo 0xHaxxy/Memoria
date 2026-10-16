@@ -17,8 +17,9 @@ function start() {
 
     <main class="main-content">
       <section class="card">
-        <h2 class="welcome-title">¡Bienvenido!</h2>
+      <h2 class="welcome-title">¡Bienvenido!</h2>
         <p class="instruction">Learn Spanish, one word at a time</p>
+        <img src="/image/vase.jpg" alt="" class="vase-img">
         <img src="/image/chapeau.jpg" alt="" class="hat-img">
       </section>
 
