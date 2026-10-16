@@ -33,6 +33,21 @@ body {
     border-radius: 0 0 64px 64px;
 }
 
+.back-btn {
+    display: inline-block;
+    color: var(--card);
+    font-size: 45px;
+    line-height: 1;
+    text-decoration: none;
+}
+
+/* Survol */
+.option-btn:hover,
+.submit-btn:hover,
+.back-btn:hover {
+    opacity: 0.70 ;
+}
+
 .app-title {
     margin: 14px 0 2px;
     font-size: 64px;
@@ -95,29 +110,17 @@ body {
     color: var(--txt-ask);
 }
 
-.decor-icons {
+.vase-img {
     position: absolute;
-    top: 22px;
-    right: 22px;
-    display: flex;
-    gap: 6px;
-}
-
-.icon-item {
-    width: 26px;
-    height: 40px;
-    background-color: #E2884C;
-    border-radius: 50% 50% 45% 45%;
-}
-
-.icon-item:nth-child(2) {
-    background-color: #B95A1A;
+    bottom: 330px;
+    right: 30px;
+    width: 120px;
 }
 
 .hat-img {
     position: absolute;
-    bottom: 24px;
-    left: 22px;
+    bottom: 35px;
+    left: 30px;
     width: 110px;
 }
 
@@ -222,20 +225,12 @@ body {
     border: 4px solid transparent;
     border-radius: 16px;
     cursor: pointer;
+    outline: none;
+    transition: border-color .2s ease;
 }
 
-.option-btn.selected {
+.option-btn:focus {
     border-color: var(--entoure-btn);
-}
-
-.option-btn.correct {
-    background-color: var(--ok);
-    color: var(--card);
-}
-
-.option-btn.wrong {
-    background-color: var(--ko);
-    color: var(--card);
 }
 
 .feedback-msg {
@@ -286,14 +281,6 @@ body {
     flex: 1;
 }
 
-.result-item.correct .user-answer {
-    color: var(--ok);
-}
-
-.result-item.wrong .user-answer {
-    color: var(--ko);
-}
-
 .correction-text {
     font-size: 16px;
 }
@@ -304,16 +291,9 @@ body {
     display: grid;
     place-items: center;
     border-radius: 50%;
+    background-color: var(--terracotta);   /* ajoute cette ligne */
     color: var(--card);
     font-weight: 700;
-}
-
-.result-item.correct .status-icon {
-    background-color: var(--ok);
-}
-
-.result-item.wrong .status-icon {
-    background-color: var(--ko);
 }
 
 /* Bouton principal */
