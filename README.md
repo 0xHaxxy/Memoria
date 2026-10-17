@@ -1,4 +1,4 @@
-# 🧠 Memoria
+# MEMORIA
 
 <p align="center">
   <strong>Apprendre. Mémoriser. Progresser.</strong><br>
@@ -13,22 +13,11 @@
 
 ---
 
-## ✨ Présentation
+## Présentation
 
 **Memoria** est une application de quiz conçue pour aider les utilisateurs à apprendre et à mémoriser du vocabulaire grâce à des questions à choix multiples.
 
-### Fonctionnalités
-
-- 🎯 Quiz interactifs de vocabulaire
-- ✅ Correction immédiate des réponses
-- 🟢 Mise en évidence des bonnes réponses en vert
-- 🔴 Mise en évidence des mauvaises réponses en rouge
-- 📊 Affichage du score final et récapitulatif des réponses
-- 🔄 Possibilité de recommencer une partie
-
----
-
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 - [Vue.js 3](https://vuejs.org/) — interface utilisateur
 - [Vite](https://vite.dev/) — serveur de développement et compilation
@@ -38,7 +27,7 @@
 
 ---
 
-## 🚀 Installation
+## Installation
 
 Suis les étapes ci-dessous pour installer et lancer Memoria sur ton ordinateur.
 
@@ -46,7 +35,7 @@ Suis les étapes ci-dessous pour installer et lancer Memoria sur ton ordinateur.
 
 Installe **Node.js (version LTS)** depuis le site officiel :
 
-👉 https://nodejs.org/
+ https://nodejs.org/
 
 npm est inclus avec Node.js.
 
@@ -94,7 +83,7 @@ Ouvre cette adresse dans ton navigateur pour utiliser Memoria.
 
 ---
 
-## 🏗️ Générer la version de production
+## Générer la version de production
 
 Pour créer une version optimisée de l'application, exécute :
 
@@ -116,15 +105,15 @@ npm run preview
 
 Le projet peut être installé et développé sur les systèmes suivants :
 
-- 🪟 Windows
-- 🐧 Linux
-- 🍎 macOS
+-  <b>Windows</b>
+-  <b>Linux</b>
+-  <b>macOS</b>
 
 Node.js est nécessaire pour installer les dépendances et lancer le serveur de développement.
 
 ---
 
-## 📁 Structure du projet
+## Structure du projet
 
 ```text
 Memoria/
